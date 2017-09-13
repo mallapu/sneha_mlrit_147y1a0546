@@ -31,8 +31,9 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void setStudents(Student[] students) {
-		// Add your implementation here
-	}
+                                    this.student=student[];
+                                     
+                                         }
 
 	@Override
 	public Student getStudent(int index) {
@@ -42,13 +43,14 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void setStudent(Student student, int index) {
-		// Add your implementation here
+	         this.student=student;
 	}
 
 	@Override
 	public void addFirst(Student student) {
-		// Add your implementation here
-	}
+		char =name;
+                                        system.out.println("firstname");
+                                        add.first("name");	}
 
 	@Override
 	public void addLast(Student student) {
@@ -66,8 +68,13 @@ public class StudentGroup implements StudentArrayOperation {
 	}
 
 	@Override
-	public void remove(Student student) {
-		// Add your implementation here
+	public void remove(Student student){
+                               void student()
+                              {
+                                    student  st=new student();
+                                    
+                              
+
 	}
 
 	@Override
@@ -103,7 +110,6 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public Student[] getBetweenBirthDates(Date firstDate, Date lastDate) {
-		// Add your implementation here
 		return null;
 	}
 
