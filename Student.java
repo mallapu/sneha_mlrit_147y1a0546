@@ -63,6 +63,7 @@ public class Student implements Comparable {
 	}
 
 	public double getAvgMark() {
+		double avgmarks;
 		return avgMark;
 	}
 
